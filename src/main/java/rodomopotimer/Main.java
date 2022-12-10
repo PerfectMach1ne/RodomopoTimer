@@ -21,6 +21,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        com.formdev.flatlaf.FlatDarculaLaf.setup();
+
         javax.swing.SwingUtilities.invokeLater(Main::createAndShowGUI);
     }
 }
